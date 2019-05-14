@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/naranja_alerta_fill"/>
+    <corners android:radius="10dp"></corners>
+    <stroke android:width="2dp"
+        android:color="@color/naranja_alerta"></stroke>
+</shape>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</selector>-->

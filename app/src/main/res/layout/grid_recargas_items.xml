@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/ib_grid_telefonicas"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerInside"
+        android:gravity="center"
+        android:transitionName="logo_telefonia_movil"
+        android:backgroundTint="@android:color/transparent"
+        android:src="@mipmap/ic_launcher"
+        android:fitsSystemWindows="true">
+    </ImageButton>
+</RelativeLayout>

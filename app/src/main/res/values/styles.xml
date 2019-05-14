@@ -1,0 +1,73 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SinBarra" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BotonDialog" parent="AppTheme">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="DialogInformativo" parent="AppTheme">
+        <item name="android:background">@drawable/shape_dialog</item>
+    </style>
+
+    <style name="boton_recarga" parent="AppTheme">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/shape_boton_recarga</item>
+    </style>
+
+    <style name="semaforo_saldo_verde" parent="AppTheme">
+        <item name="android:background">@drawable/shape_semaforo_saldo_verde</item>
+    </style>
+
+    <style name="semaforo_saldo_amarillo" parent="AppTheme">
+        <item name="android:background">@drawable/shape_semaforo_saldo_amarillo</item>
+    </style>
+
+    <style name="semaforo_saldo_naranja" parent="AppTheme">
+        <item name="android:background">@drawable/shape_semaforo_saldo_naranja</item>
+    </style>
+
+    <style name="semaforo_saldo_gris" parent="AppTheme">
+        <item name="android:background">@drawable/shape_semaforo_saldo_gris</item>
+    </style>
+
+    <style name="boton_verde" parent="AppTheme">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@color/verde_yastas</item>
+    </style>
+
+    <style name="boton_blanco_cancelar" parent="AppTheme">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/verde_yastas</item>
+        <item name="android:background">@drawable/shape_boton_blanco_cancelar</item>
+    </style>
+
+    <style name="boton_desabilitado" parent="AppTheme">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="dispositivos" parent="Base.Theme.AppCompat.Dialog.Alert">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="actionBarTheme">@style/Theme.AppCompat.NoActionBar</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "528629385145",
+    "firebase_url": "https://yastas-222500.firebaseio.com",
+    "project_id": "yastas-222500",
+    "storage_bucket": "yastas-222500.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528629385145:android:d686c0de248583ab",
+        "android_client_info": {
+          "package_name": "com.gentera.sdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528629385145-pte0irt971liv6v1pubmb3se5s3cv2hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXTwIpfqZBhQ3_-8Yzkz9ToLuu4foY-WM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528629385145:android:125a09a08b305ec1",
+        "android_client_info": {
+          "package_name": "gentera.prototipo.yastas.light.piloto.definitivo.mobile.pre.alpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528629385145-23no46ptukk0f725g0btjrc5mpg9uh1f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gentera.prototipo.yastas.light.piloto.definitivo.mobile.pre.alpha",
+            "certificate_hash": "611c9255bba5666f271421d2f545358ff5412d2c"
+          }
+        },
+        {
+          "client_id": "528629385145-pte0irt971liv6v1pubmb3se5s3cv2hs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXTwIpfqZBhQ3_-8Yzkz9ToLuu4foY-WM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528629385145-pte0irt971liv6v1pubmb3se5s3cv2hs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

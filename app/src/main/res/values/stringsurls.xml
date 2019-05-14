@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Desarrollo-->
+    <!--<string name="base_api_lab">https://dev.apilab.gentera.com.mx/</string>-->
+    <string name="link_play_store" translatable="false">https://yastas.app.link/vS20su4r9Q</string>
+    <!--Desarrollo-->
+
+    <!--qa-->
+    <!--<string name="base_api_lab">https://qa.apilab.gentera.com.mx/</string>-->
+    <!--qa-->
+
+    <!--Produccion-->
+    <string name="base_api_lab">https://apilab.gentera.com.mx/</string>
+    <!--Produccion-->
+
+</resources>

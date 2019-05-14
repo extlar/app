@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/morado_yastas</color>
+    <color name="colorPrimaryDark">@color/morado_yastas_dark</color>
+    <color name="colorAccent">@color/verde_yastas</color>
+
+    <color name="amarillo_yastas_light">#fffe50</color>
+    <color name="amarillo_yastas">#FFCB00</color>
+    <color name="amarillo_yastas_dark">#c79b00</color>
+
+    <color name="morado_yastas_light">#955ab6</color>
+    <color name="morado_yastas">#652D86</color>
+    <color name="morado_yastas_dark">#370058</color>
+
+    <color name="naranja_yastas_light">#ffa252</color>
+    <color name="naranja_yastas">#E37222</color>
+    <color name="naranja_yastas_dark">#ab4400</color>
+
+    <color name="verde_yastas_light">#aeeb48</color>
+    <color name="verde_yastas">#7AB800</color>
+    <color name="verde_yastas_dark">#468800</color>
+    <color name="transparente">#00ffffff</color>
+
+    <color name="gris">#37474f</color>
+    <color name="naranja_alerta">#f57c00</color>
+    <color name="naranja_alerta_fill">#ffe0b2</color>
+</resources>

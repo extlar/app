@@ -1,0 +1,214 @@
+<resources>
+    <string name="app_name">Pagos Yastás</string>
+    <string name="yastas">Yast\u00E1s</string>
+    <!--     usar en caso de acento o ñ:     -->
+    <!--
+
+               Á	\u00C1	A con acento
+               á	\u00E1	a con acento
+               É	\u00C9	E con acento
+               é	\u00E9	e con acento
+               Í	\u00CD	I con acento
+               í	\u00ED	i con acento
+               Ó	\u00D3	O con acento
+               ó	\u00F3	o con acento
+               Ú	\u00DA	U con acento
+               ú	\u00FA	u con acento
+               Ü	\u00DC	U con dieress
+               ü	\u00FC	u con dieresis
+               ñ 	\u00F1	n con tilde
+               Ñ    \u00D1  N con tilde
+               &    \u0026    amperson
+
+   -->
+    <!--     usar en caso de acento o ñ:     -->
+
+    <!-- generalidades -->
+    <string name="empty" />
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="siguiente">Siguiente</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="anterior">Anterior</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="numero_atencion_clientes">tel:018002200202</string>
+    <!--<string name="numero_atencion_clientes">tel:018002200202,,,1,,2</string>-->
+    <string name="selecciona_compannia">Selecciona la compa\u00F1ia</string>
+    <string name="confirma_datos">Confirma los datos</string>
+    <string name="servicio">Servicio</string>
+    <string name="numero_referencia">N\u00FAmero de referencia</string>
+    <string name="monto">Monto</string>
+    <string name="continuar">continuar</string>
+    <string name="verificar_operacion">Verificar operaci\u00F3n</string>
+    <string name="transaccion_exitosa">Tu operaci\u00F3n se realiz\u00F3 con \u00E9xito\n¿Por qu\u00E9 medio deseas notificar?</string>
+    <string name="numero_transaccion">N\u00FAmero de autorizaci\u00F3n:</string>
+    <string name="comprobante_operacion">Comprobante de operaci\u00F3n</string>
+    <string name="enviar_comprobante">Enviar comprobante</string>
+    <string name="ingresa_correo">Ingresa un correo para enviar comprobante</string>
+    <string name="ingresa_phone">Ingresa un n\u00FAmero celular para enviar sms</string>
+    <string name="imprimir">Imprimir</string>
+    <string name="reimprimir">Reimprimir</string>
+    <string name="encender_bluetooth">¿Deseas encender el BlueTooth?</string>
+    <string name="expliacion_bluetooth">-Necesario para establecer conexi\u00F3n con la impresora.</string>
+    <string name="permiso_mensajes">Permiso para enviar mensajes</string>
+    <string name="expliacion_permiso_mensajes">-Necesario para enviar notificacioines via sms.</string>
+    <string name="seguro_que_cancelas">¿Seguro que quieres cancelar esta transacci\u00F3n?</string>
+    <string name="guardar">guardar</string>
+    <string name="compartir">compartir</string>
+    <string name="archivo_guardado">Archivo guardado</string>
+    <string name="nombre">Nombre: </string>
+    <string name="operador">Operador: </string>
+    <string name="comercio">Comercio: </string>
+    <string name="entrar">Entrar</string>
+    <string name="si">SI</string>
+    <string name="no">NO</string>
+    <string name="ayuda">AYUDA</string>
+    <!-- generalidades -->
+
+    <!--dialogs-->
+    <string name="explora_tu_nueva_app">Explora tu nueva aplicaci\u00F3n y conoce todos los servicios que puedes ofrecer.</string>
+    <!--dialogs-->
+
+    <!--interrogatorio-->
+    <string name="cual_numero_usuario">¿Cu\u00E1l es tu ID de operador?</string>
+    <string name="cual_numero_tarjeta">¿Cu\u00E1l es tu n\u00FAmero de tarjeta?</string>
+    <string name="cual_es_tu_contrasenna">¿Cu\u00E1l es tu contrase\u00F1a?</string>
+    <!--interrogatorio-->
+
+    <!--login-->
+    <string name="login">Login</string>
+    <string name="error_coneccion">Conexi\u00F3n lenta</string>
+    <string name="error_coneccion_explicacion">Lo sentimos, tu conexi\u00F3n a internet presenta problemas, busca un lugar con mejor se\u00F1al o conéctate por WiFi para usar la aplicaci\u00F3n</string>
+    <!--login-->
+
+    <!--main activity-->
+    <string name="tu_saldo_es">Tu saldo actual es: </string>
+    <string name="recargar">recargar</string>
+    <string name="invertir">Invertir</string>
+    <string name="ver_referencia">Ver Referencia</string>
+    <!--main activity-->
+
+    <!--fondear saldo-->
+    <string name="recarga_saldo">Recarga saldo</string>
+    <string name="selecciona_un_metodo_para_recargar_saldo">Selecciona un m\u00E9todo de recarga para tu saldo Yast\u00E1s.</string>
+    <string name="tu_numero_spei">Tu CLABE es:</string>
+    <string name="instrucciones_spei">Ingresa este n\u00FAmero para realizar una transferencia en l\u00EDnea SPEI. El monto que deposites ser\u00E1 abonado a tu saldo en un m\u00E1ximo de 15 minutos.</string>
+    <string name="recordatorio_spei">Recuerda que esta CLABE es \u00FAnica e irrepetible, asignada a tu cuenta personal de Yast\u00E1s. Si te equivocas podr\u00EDas estar recargando saldo a otra cuenta.</string>
+    <string name="tu_numero_compartamos_banco">Tu n\u00FAmero de referencia para Compartamos Banco es:</string>
+    <string name="instrucciones_compartamos_banco">Lleva este n\u00FAmero a tu sucursal Compartamos Banco para realizar un d\u00E9posito referenciado. El monto que deposites ser\u00E1 abonado a tu saldo en un m\u00E1ximo de 15 minutos.</string>
+    <string name="recordatorio_compartamos_banco">Recuerda que esta referencia es \u00FAnica e irrepetible, asignada a tu cuenta personal de Yast\u00E1s. Si te equivocas podr\u00EDas estar recargando saldo a otra cuenta.</string>
+    <string name="explicacion_guardado">El archivo se guard\u00F3 en tu galer\u00EDa. Ahora puedes consultarlo sin conexi\u00F3n a internet.</string>
+    <string-array name="metodos_recarga_saldo">
+        <item>-Selecciona un metodo-</item>
+        <item>Transferencia SPEI</item>
+        <item>Dep\u00F3sito bancario</item>
+    </string-array>
+    <!--fondear saldo-->
+
+    <!--menu lateral main-->
+    <string name="inicio">Inicio</string>
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="mensajes">Mensajes</string>
+    <string name="compartir_app">Compartir esta aplicaci\u00F3n</string>
+    <string name="cerrar_sesion">Cerrar Sesi\u00F3n</string>
+    <!--menu lateral main-->
+
+    <!--tiempo aire-->
+    <string name="tiempo_aire">Tiempo Aire</string>
+    <string name="selecciona_la_compannia_de_recarga">Selecciona la compa\u00F1ia de recarga</string>
+    <string name="selecciona_monto">Selecciona un monto</string>
+    <string name="ingresa_un_numero_celular">Ingresa un n\u00FAmero celular</string>
+    <string name="confirma_un_numero_celular">Confirma n\u00FAmero celular</string>
+    <!--tiempo aire-->
+
+    <!--pago de servicios-->
+    <string name="pago_servicios">Pago de Servicios</string>
+    <string name="selecciona_servicio">Selecciona el tipo de servicio</string>
+    <string name="telefonia_internet">Telefon\u00EDa e internet</string>
+    <string name="agua">Agua</string>
+    <string name="luz">Luz</string>
+    <string name="gas">Gas</string>
+    <string name="tesoreria_gobierno">Tesorer\u00EDa y gobierno</string>
+    <string name="venta_catalogo">Venta por cat\u00E1logo</string>
+    <string name="cargo_por_servicio">Cargo por servicio</string>
+    <string name="serenate">Espera mientras procesamos tu pago.</string>
+    <!--pago de servicios-->
+
+    <!--compra codigos-->
+    <string name="recarga_apps_juegos">Recarga apps y juegos</string>
+    <!--compra codigos-->
+
+    <!--reportes-->
+    <string name="reportes">Reportes</string>
+    <string name="selecciona_un_mes_para">Selecciona un mes para ver tus ganancias</string>
+    <string name="has_ganado">Has ganado:  $</string>
+    <string-array name="tipo_reportes">
+        <item>Selecciona tipo de reporte</item>
+        <item>Reporte de Ganancias</item>
+        <item>Reporte de Operaciones</item>
+    </string-array>
+    <string-array name="meses">
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+    <string-array name="annos_dummy">
+        <item>2019</item>
+        <item>2018</item>
+        <item>2017</item>
+    </string-array>
+    <string name="solo_ganancias">"Por el momento solo puedes generar el reporte de ganancias."</string>
+    <string name="tipo_reporte_necesario">""Por favor selecciona un tipo de reporte."</string>
+    <string name="no_transacciones">"Lo sentimos, aun no tienes transacciones"</string>
+    <string name="no_transacciones_full">"Todavia no tienes registrada ninguna venta\n\n!Platica a tus clientes sobre la recarga de saldos para apps y tiendas de entretenimiento! "</string>
+    <string name="titulo_repo_trans">Tus transacciones del d\u00EDa  %</string>
+    <string name="day_picker_reporte">Selecciona un d\u00EDa para ver tus transacciones</string>
+    <string name="alerta_ganancias">La informaci\u00F3n presentada es al corte del d\u00EDa anterior por lo que las ganancias pueden tardar hasta 24 horas para aparecer en este reporte. Los ajustes, excepciones, cargos e impuestos se mostrarán al séptimo d\u00EDa del mes posterior.</string>
+    <!--reportes-->
+
+    <!--paquetes de datos-->
+    <string name="paquetes_datos">Paquetes de datos</string>
+    <!--paquetes de datos-->
+
+    <!--administracion-->
+    <string name="administracion">Administraci\u00F3n</string>
+    <!--administracion-->
+
+    <!-- hints referencias-->
+    <string name="hint_referencia_avon">Introduce referencia de 20 digitos</string>
+    <!-- hints referencias-->
+
+    <!--system-->
+    <string name="navigation_drawer_open">nav_drawer_open</string>
+    <string name="navigation_drawer_close">nav_drawer_close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--system-->
+
+    <!--cuenta clabe-->
+    <string name="tu_clabe">Tu cuenta CLABE es:</string>
+    <!--cuenta clabe-->
+
+    <!--olvide contrasenna-->
+    <string name="olvide_pass">Olvid\u00E9 mi contrase\u00F1a</string>
+    <string name="explicacion_reseteo">Para reiniciar tu contrase\u00F1a, comun\u00EDcate a nuestro Centro de Contacto, identif\u00EDcate con tus datos de operador y pide un c\u00F3digo temporal.\n\nUna vez que tengas tu c\u00F3digo temporal podras establecer una nueva contrase\u00F1a.</string>
+    <string name="llamar">llamar</string>
+    <string name="ya_tengo_codigo">Ya tengo un c\u00F3digo temporal</string>
+    <string name="cual_es_tu_codigo">¿Cu\u00E1l es tu c\u00F3digo temporal?</string>
+    <string name="establece_nueva_senna">Establece una nueva contrase\u00F1a\n(PIN)\n6 d\u00EDgitos</string>
+    <string name="confirma_nueva_senna">Confirma contrase\u00F1a\n(PIN)\n6 d\u00EDgitos</string>
+    <string name="numero_usuario">ID de operador</string>
+    <string name="numero_tarjeta">N\u00FAmero de tarjeta</string>
+    <string name="numero_reseteo_pass">tel:018002200202</string>
+    <!--<string name="numero_reseteo_pass">tel:018002200202,,,1,,1</string>-->
+    <!--olvide contrasenna-->
+</resources>

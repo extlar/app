@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activities.Reportes">
+
+    <LinearLayout
+        android:id="@+id/contenedor_seleccion_fecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <Spinner
+            android:id="@+id/sp_tipo_reporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/titulo_selec_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            tools:text="@string/selecciona_un_mes_para" />
+
+        <Spinner
+            android:id="@+id/sp_mes_anno_reporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp" />
+
+
+        <EditText
+            android:id="@+id/trans_day_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="@string/day_picker_reporte"
+            android:inputType="date"
+            android:maxLines="1"
+            android:textSize="18sp" />
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <LinearLayout
+            android:id="@+id/ll_contenedor_boton_continuar_reporte_ganancias"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btn_continuar_ganancias_reportes"
+                style="@style/boton_verde"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:layout_weight="3"
+                android:text="@string/continuar" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/contenedor_graficos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/morado_yastas"
+        android:visibility="visible">
+
+        <TextView
+            android:id="@+id/alerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dp"
+            android:background="@drawable/alerta_container"
+            android:gravity="center"
+            android:padding="6dp"
+            android:text="@string/alerta_ganancias"
+            android:textColor="@color/naranja_alerta"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:id="@+id/titles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/alerta"
+            android:layout_marginBottom="6dp"
+            android:paddingBottom="6dp">
+
+            <TextView
+                android:id="@+id/plusvalia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                tools:text="Has gando $2099" />
+
+            <TextView
+                android:id="@+id/tv_mes_reportado"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                tools:text="Marzo 1986" />
+        </LinearLayout>
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/titles">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.github.mikephil.charting.charts.LineChart
+                    android:id="@+id/lChart_ganancias"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginBottom="0dp" />
+
+                <android.support.design.widget.TabLayout
+                    android:id="@+id/tabLayout_reportes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lChart_ganancias"
+                    android:background="@android:color/white"
+                    app:tabGravity="center"
+                    app:tabMode="fixed"></android.support.design.widget.TabLayout>
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/view_pager_reportes"
+                    android:layout_width="match_parent"
+                    android:layout_height="800dp"
+                    android:layout_below="@+id/tabLayout_reportes"
+                    android:background="@android:color/white">
+
+                </android.support.v4.view.ViewPager>
+
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/no_transactions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/sadphone_img"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/sadphone" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sadphone_img"
+            android:layout_marginTop="36dp"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="@string/no_transacciones_full"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:id="@+id/progressBar2"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ly_reporte_transacciones"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="12dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/titulo_rep_trans"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="6dp"
+            android:textColor="@color/morado_yastas"
+            android:textSize="18sp"
+            tools:text="@string/titulo_repo_trans" />
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_repo_trans"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/titulo_rep_trans" />
+    </RelativeLayout>
+</RelativeLayout>

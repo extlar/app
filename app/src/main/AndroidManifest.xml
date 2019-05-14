@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gentera.prototipo.yastas.light.piloto.definitivo.mobile.pre.alpha">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE" />
+    <uses-permission-sdk-23 android:name="android.permission.CAMERA" />
+    <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH" />
+    <uses-permission-sdk-23 android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".activities.Splash"
+            android:theme="@style/SinBarra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Bienvenida"
+            android:theme="@style/SinBarra" />
+        <activity
+            android:name=".fragments.BuscarDispositivos"
+            android:theme="@style/dispositivos" />
+        <activity android:name=".activities.PagoConPIM"/>
+        <activity android:name=".activities.RecargaPaqueteDatos" />
+        <activity android:name=".activities.PagoDeServicios" />
+        <activity android:name=".activities.ProcesoDePago" />
+        <activity android:name=".activities.Recargas" />
+        <activity android:name=".activities.FondearSaldo" />
+        <activity android:name=".activities.LoginUsuariosExistentes" />
+        <activity android:name=".activities.Reportes" />
+        <activity android:name=".activities.CuentaClabe" />
+        <activity android:name=".fragments.DialogBluetooth" />
+        <activity android:name=".activities.ParaPruebas" />
+        <activity android:name=".activities.OlvidoPass" />
+        <activity android:name="com.gentera.sdk.modules.messagecenter.android_module.ui.surveys.SurveysActivity" />
+    </application>
+
+</manifest>

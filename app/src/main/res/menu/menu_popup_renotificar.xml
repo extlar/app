@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="SMS"
+        android:id="@+id/menu_re_sms"
+        android:orderInCategory="7"></item>
+    <item
+        android:title="E-mail"
+        android:id="@+id/menu_re_mail"
+        android:orderInCategory="8"></item>
+    <item
+        android:title="Reimpresión"
+        android:id="@+id/menu_reimprimir"
+        android:orderInCategory="9"></item>
+</menu>
